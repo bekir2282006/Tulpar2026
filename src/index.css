@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Cinzel', serif;
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #08090d;
+    color: #e2e8f0;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .brand-font {
+    letter-spacing: -0.02em;
+  }
+
+  .font-brand-logo {
+    font-family: var(--font-heading);
+    letter-spacing: 0.18em;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0f17;
+}
+::-webkit-scrollbar-thumb {
+  background: #262b3d;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d4af37;
+}
+
+/* Luxury Gold & Dark Gradients */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #FFF6D0 0%, #E5C07B 40%, #C59A3F 75%, #926F1E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #D4AF37 0%, #C59A3F 50%, #A17926 100%);
+}
+
+.gold-border-glow {
+  box-shadow: 0 0 15px -3px rgba(212, 175, 55, 0.25);
+}
+
+.glass-card {
+  background: rgba(18, 21, 30, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.glass-card-gold {
+  background: rgba(22, 25, 36, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+}

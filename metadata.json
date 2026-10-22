@@ -1,0 +1,6 @@
+{
+  "name": "TULPAR - Team & Shift Management",
+  "description": "Премиальная система управления рабочей командой TULPAR: графики смен, учет заработка в USD, расчет процентов выплат, мультивалютный и мультичасовой контроль.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
